@@ -1,5 +1,6 @@
 #include "TF1.h"
 // 20190327
+// zjf 
 Double_t DiExp(Double_t *x, Double_t *par)
 {
     Double_t f=par[0]*exp(-x[0]/par[1]);
